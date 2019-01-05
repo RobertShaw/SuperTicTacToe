@@ -1,0 +1,9 @@
+<div id='board'>
+  <% 9.times do |i| %>
+    <div class='tile<%= i %> tile'> 
+      <% 9.times do |j| %>
+	<div id='tile<%= i %>square<%= j %>' class='cell square<%= j %>' data-tile='<%= j %>' data-square='<%= j %>'></div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,36 @@
+.center {
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.cell {
+  float: left;
+  height: 32%;
+  width: 32%;
+  border-left: 1px solid #555555;
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+  border-right: 1px solid #555555; 
+  display: inline;
+}
+.cell:hover {
+  background-color: yellow;
+}
+.tile {
+  float: left;
+  height: 32%;
+  width: 32%;
+  display: inline;
+  border-left: 3px solid #555555;
+  border-top: 3px solid #555555;
+  border-bottom: 3px solid #555555;
+  border-right: 3px solid #555555; 
+}
+
+#board {
+  width: 500px;
+  height: 500px;
+  margin: 30px auto 10px auto; 
+}
